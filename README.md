@@ -19,3 +19,19 @@
 * `eh_palindromo(texto)` - recebe um texto e retorna um valor lógico indicando se é palindromo ou não.
 
 * `horas_minutos_segundos(tempo_em_ms)` - recebe o tempo em milisegundos (inteiro) e retorna o tempo no formato HH:MM:SS.
+
+## Utilização
+
+Realize a instalação do pacote utilizando o comando abaixo:
+
+```bash
+pip install -i https://test.pypi.org/simple/ py-utils-jsa==1.2.0
+```
+
+Código em python para testar a instalação:
+
+```python
+from pyutilsjsa.core import utils
+
+print(utils.fatorial(5))
+```
